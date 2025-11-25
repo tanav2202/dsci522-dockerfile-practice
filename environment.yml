@@ -1,0 +1,8 @@
+name: docker-practice
+channels:
+  - conda-forge
+dependencies:
+  - pandas=2.2.0
+  - numpy=1.26.4
+  - python=3.11
+prefix: /Users/tanav/miniforge3/envs/docker-practice
