@@ -1,7 +1,7 @@
 FROM quay.io/jupyter/minimal-notebook:afe30f0c9ad8
 
 # Copy the lock file
-COPY conda-linux-64.lock /tmp/conda-linux-64.lock
+COPY conda-linux-64.lock /tmp/conda-linux-aarch64.lock
 
 # Install packages from the explicit lock file
 RUN conda install --quiet --file /tmp/conda-linux-64.lock && \
